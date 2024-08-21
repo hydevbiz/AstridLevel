@@ -1,30 +1,32 @@
-## AstridLevel
+## 📈 AstridLevel 
 
-### Commands and Permissions
+AstridLevel is a plugin that enables you to manage player levels on your Minecraft server with ease. Customize and control player levels through simple commands and configurations.
 
-- **`/levels reload`**
+### 🔧 Commands and Permissions 
+
+- **`/levels reload`** 
   - **Description:** Reloads the level configuration.
   - **Permission:** `levels.reload`
 
-- **`/levels show <player>`**
+- **`/levels show <player>`** 
   - **Description:** Displays the current level of the specified player.
   - **Permission:** `levels.show`
 
-- **`/levels <add/remove/set> <player> <amount>`**
+- **`/levels <add/remove/set> <player> <amount>`** 
   - **Description:** Modifies the level of the specified player.
-    - `<add>`: Increase the player's level by the given amount.
-    - `<remove>`: Decrease the player's level by the given amount.
-    - `<set>`: Set the player's level to the specified amount.
+    - **`<add>`**: Increases the player's level by the specified amount.
+    - **`<remove>`**: Decreases the player's level by the specified amount.
+    - **`<set>`**: Sets the player's level to the given amount.
   - **Permission:** `levels.modify`
 
-### Placeholders
+### 🔄 Placeholders 
 
-- **`%astridlevels%`**
-  - **Description:** Represents the level of a player. This placeholder can be used in various messages and configurations to dynamically display player levels.
+- **`%astridlevels%`** 
+  - **Description:** Represents a player's level. This placeholder can be used in messages and configurations to dynamically display player levels.
 
-### Example Configuration
+### ⚙️ Example Configuration 
 
-Below is an example configuration for how you might use the placeholders in your settings:
+Below is a sample configuration illustrating how to use the placeholders in your settings:
 
 ```yaml
 unformatted-number: "&c{number}"
@@ -37,3 +39,4 @@ formatting-levels:
     format: 'Level 1'
   '2':
     format: 'Level 2'
+```
