@@ -1,6 +1,6 @@
 ## 📈 AstridLevel 
 
-AstridLevel is a plugin that enables you to manage player levels on your Minecraft server with ease. Customize and control player levels through simple commands and configurations.
+AstridLevel is a custom plugin for the AstridCloud server that makes managing player levels easy. 📈 Customize and control player levels with simple commands and flexible configurations, tailored specifically for AstridCloud.
 
 ### 🔧 Commands and Permissions 
 
